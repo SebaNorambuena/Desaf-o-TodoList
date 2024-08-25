@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+tr, td{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+/*--------------------------------------------------------------*/
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+/* centrado y mas */
+/*--------------------------------------------------------------*/
+.j-center{
+    justify-content: center;
+}
+.i-center{
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+.i-start{
+    align-items: flex-start;
+}
+/*--------------------------------------------------------------*/
+/* Margenes y espaciado */
+/*--------------------------------------------------------------*/
+.gap-1{
+    gap: 1em;
+}
+.gap-2{
+    gap: 2em;
+}
+/*--------------------------------------------------------------*/
+.m-left-1{
+    padding-left: 1em;
+}
+.m-left-tabla{
+    padding-left: 2.5em;
+}
+.m-auto{
+    margin: auto;
+}
+/*--------------------------------------------------------------*/
+.w-100{
+    width: 100%;
+}
+/*--------------------------------------------------------------*/
+/* Colores y mas */
+/*--------------------------------------------------------------*/
+.btn-eliminar{
+    color: red;
+}
+.btn-eliminar:hover{
+    color: brown;
+}
+/*--------------------------------------------------------------*/
+.bg-lime{
+    background-color: #ECF3D3;
+}
+/*--------------------------------------------------------------*/
+/* Tamaños de pantalla y mas */
+/*--------------------------------------------------------------*/
+.border{
+    border: solid black 2px;
+}
+.container{
+    width: auto;
+    padding: 1em;
+}
+.container-full{
+    height: 100vh;
+}
+
+.input{
+    width: 100%;
+}
+
+.btn-agregar{
+    width: 150px;
+    height: 30px;
+    border: black solid 1px;
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+/*--------------------------------------------------------------*/

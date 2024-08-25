@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLEFONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <!-- ESTILOS PERSONALES -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Desafío - Todo List_</title>
+</head>
+
+<body>
+    <main class="flex j-center i-center container-full">
+        <div class="container border bg-lime">
+
+            <div class="text-center">
+                <h1>Todo List_ <i class="fa-solid fa-clipboard"></i></h1>
+                <hr>
+            </div>
+
+            <p class="text-center">Nueva tarea</p>
+            <div class="flex gap-1 w-100">
+                <input id="input_user" type="text" class="input">
+                <button class="btn-agregar" id="boton"><strong>Agregar</strong></button>
+            </div>
+
+            <p class="text-center" id="total"></p>
+            <p class="text-center" id="realizadas"></p>
+
+            <div class="flex gap-2">
+                <p>ID</p>
+                <p>Tareas</p>
+            </div>
+            <table id="render">
+            </table>
+
+        </div>
+    </main>
+
+    <!-- SCRIPTS PERSONALES -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/ffa5565747.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
